@@ -1,3 +1,2 @@
-}
- name: "/bot"
-{
+name: Node.js
+plugin: paginate
