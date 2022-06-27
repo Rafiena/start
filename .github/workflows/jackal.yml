@@ -1,7 +1,7 @@
 name: jackal
 
-build:
-on: default 
+
+on: page
 branches: ""
 
 jobs:
