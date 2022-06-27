@@ -8,7 +8,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build the site in the jekyll/builder container
+    - name: Build the site in the docker/builder container
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
