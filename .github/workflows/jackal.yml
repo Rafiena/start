@@ -1,8 +1,5 @@
-name: jackal
+name: butoh
 
-
-on: page
-branches: ""
 
 jobs:
   build:
