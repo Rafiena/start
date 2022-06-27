@@ -1,6 +1,6 @@
 name: butoh
 
-on: pusher
+on: push
 jobs:
   build:
 
