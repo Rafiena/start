@@ -1,6 +1,7 @@
-name: Jekyll
+name: jackal
 
-on: 
+build:
+on: default 
 branches: ""
 
 jobs:
