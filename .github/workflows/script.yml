@@ -1,0 +1,11 @@
+name: dinde
+job: build 
+
+  -run_on: Ubuntu-latest 
+     
+     steps:
+      -job: upload-artifact
+      -run: 
+            docker/run
+       
+   
