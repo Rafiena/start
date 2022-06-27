@@ -1,12 +1,12 @@
 name: Jekyll
 
-on: site
+on: 
 branches: ""
 
 jobs:
   build:
 
-    runs-on: Ubuntu-latest
+    runs-on: kali-linux-latest
 
     steps:
     - uses: actions/checkout@v3
