@@ -1,8 +1,9 @@
   name: "Jackal"
 
    on: 
-    job:
-     build:
+    job: pull 
+      - default
+    build: 
 
        runs-on: Windows-latest
 
