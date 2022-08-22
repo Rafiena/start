@@ -2,7 +2,7 @@
 
   on: 
   push:
-    branches: ""
+    branches: "default"
 
 
        job:
