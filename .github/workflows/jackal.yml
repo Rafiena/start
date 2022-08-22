@@ -1,8 +1,7 @@
   name: "Jackal"
 
    on: 
-    jobs: push
-      - "default"
+    jobs: 
     build: 
 
        runs-on: Windows-latest
