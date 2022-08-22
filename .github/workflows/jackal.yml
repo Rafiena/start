@@ -1,10 +1,14 @@
   name: "Jackal"
 
-   on: 
-    jobs: 
-    build: 
-
-       runs-on: Windows-latest
+   on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+       
+       job:
+       build:
+         runs-on: Windows-latest
 
     steps:
     - uses: actions/checkout@v3
