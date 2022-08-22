@@ -1,15 +1,15 @@
-  
-  name: "Jekll"
+  name: Jekyll site CI
 
-   on:
+on:
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-       
-       job:
-       build:
-         runs-on: Windows-latest
+
+        job:
+         build:
+
+            runs-on: Windows-latest
 
     steps:
     - uses: actions/checkout@v3
